@@ -66,8 +66,8 @@
 .text{
     border-bottom: 1px solid lightgray;
     width: 90%;
-    margin-left: 20px;
-    float: left;
+    margin-left: 100px;
+    padding-top: 3px;
 }
 
 .text:hover{

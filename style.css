@@ -1,0 +1,83 @@
+#profilepic{
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}
+#top{
+    background-color: rgb(233, 230, 230);
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#icons{
+    float: right;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 100px;
+
+}
+
+#search{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#input{
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    margin-left: 10px;
+    font-size: 20px;
+    width: 90%;
+}
+
+
+.photo{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+
+.contactname{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.message{
+    color: rgb(75, 74, 74);
+    font-size: 18px;
+}
+
+.text{
+    border-bottom: 1px solid lightgray;
+    width: 90%;
+    margin-left: 20px;
+    float: left;
+}
+
+.text:hover{
+    background-color: gainsboro;
+    transition-duration: 1s;
+}
+
+.time-right{
+    float: right;
+    margin-top: 18px;
+    color: rgb(75, 74, 74);
+    font-size: 18px;
+}

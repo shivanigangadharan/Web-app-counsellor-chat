@@ -68,13 +68,13 @@ i{
 
 .contactname{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 90%;
     margin-bottom: 0%;
 }
 
 .message{
     color: rgb(75, 74, 74);
-    font-size: 14px;
+    font-size: 90%;
     margin-top: 0.5%;
 }
 

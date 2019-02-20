@@ -1,31 +1,45 @@
 #profilepic{
-    height: 90px;
-    width: 90px;
+    height: 50px;
+    width: 50px;
     border-radius: 100%;
+    margin-left: 2%;
+    vertical-align: middle;    
 }
 #top{
-    background-color: rgb(233, 230, 230);
+    background-color: rgba(189, 192, 190, 0.486);
     padding-left: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 10px;
+    padding-top: 10px;
+    width: 50%;
+
 }
 
 .flex-container{
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 #icons{
     float: right;
-    margin-top: 40px;
     margin-left: 20px;
     margin-right: 100px;
+    margin-top: 10px;
+}
+
+i{
+    color: gray;
+}
+
+#second{
+    background-color: rgba(241, 245, 242, 0.979);
+    padding: 10px;
+    width: 50%;
 
 }
 
 #search{
     margin-left: 10px;
-    margin-top: 10px;
     margin-bottom: 10px;
     background-color: white;
     margin-right: 20px;
@@ -37,14 +51,13 @@
     border: none;
     border-bottom: 1px solid lightgrey;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 15px;
     width: 90%;
 }
 
-
 .photo{
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     float: left;
     margin-right: 20px;
@@ -55,12 +68,14 @@
 
 .contactname{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
+    margin-bottom: 0%;
 }
 
 .message{
     color: rgb(75, 74, 74);
-    font-size: 18px;
+    font-size: 14px;
+    margin-top: 0.5%;
 }
 
 .text{
@@ -68,16 +83,18 @@
     width: 90%;
     margin-left: 100px;
     padding-top: 3px;
+    font-family: 'Lato', sans-serif;
 }
 
 .text:hover{
     background-color: gainsboro;
-    transition-duration: 1s;
+    transition-duration: 1.1s;
 }
 
 .time-right{
     float: right;
     margin-top: 18px;
-    color: rgb(75, 74, 74);
-    font-size: 18px;
+    color: rgb(145, 141, 141);
+    font-size: 14px;
+    margin-right: 2%;
 }
